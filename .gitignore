@@ -1,0 +1,37 @@
+# 一時ファイル
+[body],
+[login_user_id],
+
+# テストファイル
+public/test.html
+public/rediscounter.php
+public/rediscounter2.php
+public/rediscounter3.php
+
+# 別実装版（重複）
+public/timeline_subquery.php
+
+# アップロードされた画像（本番環境で生成される）
+public/upload/
+var/www/upload/
+
+# ログファイル
+*.log
+
+# 環境変数ファイル（機密情報を含む可能性）
+.env
+.env.local
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# IDE固有のファイル
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ドキュメント（任意）
+必要なファイル一覧.md
