@@ -191,7 +191,7 @@ sessio.gc_maxlifetime = 86400
 
 ```bash
 cd ~
-git clone <このリポジトリのURL> dockertest
+git clone https://github.com/SHATI0303/kouki_suiyou34.git dockertest
 cd dockertest
 ```
 
